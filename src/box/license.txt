@@ -1,0 +1,11 @@
+Model Information:
+* title:	Military metal box
+* source:	https://sketchfab.com/3d-models/military-metal-box-9e50e7cb25924ea5a383eb51bf53679f
+* author:	EXTRUD (https://sketchfab.com/sheremenik)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Military metal box" (https://sketchfab.com/3d-models/military-metal-box-9e50e7cb25924ea5a383eb51bf53679f) by EXTRUD (https://sketchfab.com/sheremenik) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

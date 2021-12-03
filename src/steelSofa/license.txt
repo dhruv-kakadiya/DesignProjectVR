@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modern Metal Frame Sofa
+* source:	https://sketchfab.com/3d-models/modern-metal-frame-sofa-b16c0fbc71544ef993584fcd4649a482
+* author:	threedeejunkee (https://sketchfab.com/threedeejunkee)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modern Metal Frame Sofa" (https://sketchfab.com/3d-models/modern-metal-frame-sofa-b16c0fbc71544ef993584fcd4649a482) by threedeejunkee (https://sketchfab.com/threedeejunkee) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)

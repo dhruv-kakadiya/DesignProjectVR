@@ -1,0 +1,11 @@
+Model Information:
+* title:	Iron Fence
+* source:	https://sketchfab.com/3d-models/iron-fence-f3d4fa0cd78247ab91136ac4294a535a
+* author:	Lucas.Presoto (https://sketchfab.com/Lucas.Presoto)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Iron Fence" (https://sketchfab.com/3d-models/iron-fence-f3d4fa0cd78247ab91136ac4294a535a) by Lucas.Presoto (https://sketchfab.com/Lucas.Presoto) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

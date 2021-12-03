@@ -1,0 +1,418 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 36494,
+      "max": [
+        2.308546543121338,
+        3.5822463035583496,
+        -1.0057790279388428
+      ],
+      "min": [
+        -1.810206413269043,
+        -1.3363418579101563,
+        -4.506340026855469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 437928,
+      "componentType": 5126,
+      "count": 36494,
+      "max": [
+        0.9998621940612793,
+        0.9999186396598816,
+        0.9999649524688721
+      ],
+      "min": [
+        -0.9999923706054688,
+        -0.9997692108154297,
+        -0.9994304776191711
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 36494,
+      "max": [
+        0.9984633922576904,
+        0.9999953508377075
+      ],
+      "min": [
+        3.0948431231081486e-06,
+        8.324626833200455e-06
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 189672,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 875856,
+      "componentType": 5126,
+      "count": 34566,
+      "max": [
+        2.2342569828033447,
+        3.7286643981933594,
+        -1.1392322778701782
+      ],
+      "min": [
+        -1.6703943014144897,
+        -1.6688480377197266,
+        -4.497591972351074
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1290648,
+      "componentType": 5126,
+      "count": 34566,
+      "max": [
+        0.9999481439590454,
+        0.9999564290046692,
+        0.9999649524688721
+      ],
+      "min": [
+        -0.9999582171440125,
+        -0.999941885471344,
+        -0.999406635761261
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 291952,
+      "componentType": 5126,
+      "count": 34566,
+      "max": [
+        0.9999828338623047,
+        0.9995845556259155
+      ],
+      "min": [
+        3.835884854197502e-05,
+        1.8327496945858002e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 758688,
+      "componentType": 5125,
+      "count": 185406,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1705440,
+      "componentType": 5126,
+      "count": 32527,
+      "max": [
+        2.2667055130004883,
+        4.720892906188965,
+        -1.3982881307601929
+      ],
+      "min": [
+        -2.465513229370117,
+        -1.3371760845184326,
+        -5.166208267211914
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2095764,
+      "componentType": 5126,
+      "count": 32527,
+      "max": [
+        0.9998602271080017,
+        0.999883234500885,
+        0.9999685883522034
+      ],
+      "min": [
+        -0.9999404549598694,
+        -0.9996255040168762,
+        -0.9995313882827759
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 568480,
+      "componentType": 5126,
+      "count": 32527,
+      "max": [
+        0.9999533891677856,
+        0.9998447299003601
+      ],
+      "min": [
+        4.063080996274948e-05,
+        1.6019679605960846e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1500312,
+      "componentType": 5125,
+      "count": 177351,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "matousekfoto (https://sketchfab.com/matousekfoto)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/glass-bottles-recycle-bin-trash-dbcc332d43784adebd5c766d9f8be30e",
+      "title": "Glass bottles recycle bin trash"
+    },
+    "generator": "Sketchfab-11.12.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2209716,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 828696,
+      "byteOffset": 2209716,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2486088,
+      "byteOffset": 3038412,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5524500,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/material1_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/material2_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/material0_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material2",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material0",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Model_material1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Model_material2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Model_material0_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.9511845111846924,
+        -0.2843332588672638,
+        0.12001109868288033,
+        0.0,
+        -0.21069841086864471,
+        -0.3141327202320101,
+        0.9257034063339232,
+        0.0,
+        -0.22550883889198303,
+        -0.9058008790016173,
+        -0.35870674252510093,
+        0.0,
+        0.37055113911628723,
+        5.379589557647704,
+        4.05510425567627,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "trash-glass.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6
+      ],
+      "name": "Model"
+    },
+    {
+      "mesh": 0,
+      "name": "Model_material1_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Model_material2_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Model_material0_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

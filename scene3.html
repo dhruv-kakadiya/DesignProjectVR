@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VR Project</title>
+		<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+		<script src="https://rawgit.com/mayognaise/aframe-mouse-cursor-component/master/dist/aframe-mouse-cursor-component.min.js"></script>
+		<script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
+		<script src="js/aframe-material.js"></script>
+		<script type="text/javascript">
+			AFRAME.ASSETS_PATH = './assets';
+		</script>
+	</head>
+	<body>
+		<a-scene cursor="rayOrigin: mouse">
+			<a-assets>
+				<a-assets-item id="road" src="./src/road/scene.gltf"></a-asset-item>
+				<a-assets-item id="petrolPump" src="./src/petrolPump/scene.gltf"></a-asset-item>
+				<a-assets-item id="stonePlatform" src="./src/stonePlatform/scene.gltf"></a-asset-item>
+				<a-assets-item id="smokeGuy" src="./src/smokeGuy/smokingGuy.gltf"></a-asset-item>
+				<a-assets-item id="manCalling" src="./src/manCalling/scene.gltf"></a-asset-item>
+				<a-assets-item id="oilTank" src="./src/oilTank/scene.gltf"></a-asset-item>
+				<a-assets-item id="oilTank2" src="./src/oilTank2/scene.gltf"></a-asset-item>
+				<a-assets-item id="kidsPlay" src="./src/kidsPlay/scene.gltf"></a-asset-item>
+				<a-assets-item id="kidsPlay2" src="./src/kidsPlay2/scene.gltf"></a-asset-item>
+
+				<img id="floorImage" src="./src/Images/floor3.jpg" />
+				<img id="mobilePhone" src="./src/Images/phoneCall.jpg" />
+				<img id="smokePoster" src="./src/Images/smokePoster.jpg" />
+				<img id="sky" src="./src/Images/sky.jpg" />
+				<img id="oilSpot1" src="./src/Images/oilSpot1.png" />
+			</a-assets>
+			<a-entity laser-controls="hand: right"></a-entity>
+			<a-entity position="0 2 18" camera look-controls wasd-controls></a-entity>
+
+			<!-- Sky -->
+			<a-sky 
+				src="#sky"
+				rotation="0 45 0">
+			</a-sky>
+
+			<!-- Floor -->
+			<a-plane 
+				material="color: #FFFFFF; src: #floorImage; repeat: 500 500;"
+				rotation="-90 0 0"
+				scale="1000 1000">
+			</a-plane>
+
+			<!-- Petrol Pump 1 -->
+			<a-entity
+				gltf-model="#petrolPump"
+				position="-8 0.4 -2"
+				scale="0.2 0.2 0.2"
+				rotation="0 -90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#stonePlatform"
+				position="-8 0 -2"
+				scale="0.009 0.009 0.009"
+				rotation="0 -90 0">
+			</a-entity>
+
+			<!-- Petrol Pump 2 -->
+			<a-entity
+				gltf-model="#petrolPump"
+				position="3 0.4 -2"
+				scale="0.2 0.2 0.2"
+				rotation="0 -90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#stonePlatform"
+				position="3 0 -2"
+				scale="0.009 0.009 0.009"
+				rotation="0 -90 0">
+			</a-entity>
+
+			<!-- Petrol Pump 3 -->
+			<a-entity
+				gltf-model="#petrolPump"
+				position="-5 0.4 -9"
+				scale="0.2 0.2 0.2"
+				rotation="0 -90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#stonePlatform"
+				position="-5 0 -9"
+				scale="0.009 0.009 0.009"
+				rotation="0 -90 0">
+			</a-entity>
+
+			<!-- Petrol Pump 4 -->
+			<a-entity
+				gltf-model="#petrolPump"
+				position="10 0.4 -9"
+				scale="0.2 0.2 0.2"
+				rotation="0 -90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#stonePlatform"
+				position="10 0 -9"
+				scale="0.009 0.009 0.009"
+				rotation="0 -90 0">
+			</a-entity>
+
+			<!-- Upper Plate -->
+			<a-box
+				scale="30 1 25"
+				color="#EF802D"
+				position="0 10 -4">
+			</a-box>
+			<a-cylinder
+				position="-10 0 5"
+				color="#FEA610"
+				scale="0.2 20 0.2">
+			</a-cylinder>
+			<a-cylinder
+				position="-10 0 -14"
+				color="#FEA610"
+				scale="0.2 20 0.2">
+			</a-cylinder>
+			<a-cylinder
+				position="10 0 5"
+				color="#FEA610"
+				scale="0.2 20 0.2">
+			</a-cylinder>
+			<a-cylinder
+				position="10 0 -14"
+				color="#FEA610"
+				scale="0.2 20 0.2">
+			</a-cylinder>
+
+			<!-- Man Calling -->
+			<a-entity
+				gltf-model="#manCalling"
+				scale="1.7 1.7 1.7"
+				position="12.5 0 -3.5"
+				rotation="0 -50 0">
+			</a-entity>
+
+			<!-- Mobile Phone Board -->
+			<a-plane 
+				material="src: #mobilePhone;"
+				scale="1 1 50" 
+				rotation="0 0 0"
+				position="-3 7 5">
+			</a-plane>
+			<a-cylinder
+				color="#000000"
+				position="-3 9.5 5"
+				scale="0.02 4 0.02">
+			</a-cylinder>
+
+			<!-- Smoke Board -->
+			<a-plane 
+				material="src: #smokePoster;"
+				scale="1 1 50" 
+				rotation="0 0 0"
+				position="3 7 5">
+			</a-plane>
+			<a-cylinder
+				color="#000000"
+				position="3 9.5 5"
+				scale="0.02 4 0.02">
+			</a-cylinder>
+
+			<!-- Smoke Guy -->
+			<a-entity
+				gltf-model="#smokeGuy"
+				scale="0.015 0.015 0.015"
+				position="-10.5 0 -10"
+				rotation="0 120 0">
+			</a-entity>
+
+			<!-- Oil Tank -->
+			<a-entity
+				gltf-model="#oilTank"
+				scale="1 1 1"
+				position="25.5 0 -30"
+				rotation="0 180 0">
+			</a-entity>
+
+			<!-- Oil Tank 2 -->
+			<a-entity
+				gltf-model="#oilTank2"
+				scale="0.3 0.3 0.3"
+				position="25.5 2.5 -8"
+				rotation="0 0 0">
+			</a-entity>
+
+			<!-- Oil Spot -->
+			<a-image 
+				src="#oilSpot1" 
+				color="black" 
+				rotation="90.0 0.0 0.0" 
+				position="23.5 0.1 -4" 
+				width="20.0" 
+				height="20.0">
+			</a-image>
+
+			<!-- Kids Play -->
+			<a-entity
+				gltf-model="#kidsPlay"
+				scale="0.4 0.4 0.4"
+				position="20 0 -7"
+				rotation="0 0 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#kidsPlay2"
+				scale="0.15 0.15 0.15"
+				position="20 0 -7"
+				rotation="0 0 0">
+			</a-entity>
+
+			<!-- INPUTS/KEYBOARD
+			<a-keyboard physical-keyboard="true"></a-keyboard>
+			<a-input
+				position="-1.5 3 -4"
+				placeholder="Answer"
+				color="black"
+				width="2"
+				id="inputScore"
+			></a-input> -->
+
+			<a-form>
+				<a-button
+					position="-1 3 -4"
+					name="stuff"
+					width="3"
+					value="Next Scene"
+					type="raised">
+				</a-button>
+			</a-form>
+
+		<script src="js/scene3.js"></script>
+	</body>
+</html>

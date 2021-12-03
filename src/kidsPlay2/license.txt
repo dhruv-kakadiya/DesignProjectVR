@@ -1,0 +1,11 @@
+Model Information:
+* title:	Leo and Oliver
+* source:	https://sketchfab.com/3d-models/leo-and-oliver-9c7b4497082f43fe8ba718c4fc27f8bd
+* author:	James Bayer (https://sketchfab.com/james16bayer)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Leo and Oliver" (https://sketchfab.com/3d-models/leo-and-oliver-9c7b4497082f43fe8ba718c4fc27f8bd) by James Bayer (https://sketchfab.com/james16bayer) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

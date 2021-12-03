@@ -1,0 +1,590 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5547,
+      "max": [
+        423.47528076171875,
+        1842.7728271484375,
+        614.6777954101563
+      ],
+      "min": [
+        -423.4750061035156,
+        -0.029079437255859375,
+        -588.674072265625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 66564,
+      "componentType": 5126,
+      "count": 5547,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5547,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5547,
+      "max": [
+        0.998779296875,
+        0.9941895008087158
+      ],
+      "min": [
+        0.001220703125,
+        0.001220703125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 17940,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 133128,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        526.4193115234375,
+        396.6579284667969,
+        525.8919677734375
+      ],
+      "min": [
+        -526.5826416015625,
+        -0.748046875,
+        -527.1102905273438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 161592,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.9999663829803467,
+        1.0,
+        0.9999663829803467
+      ],
+      "min": [
+        -0.9999663829803467,
+        -1.0,
+        -0.9999663829803467
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 88752,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.9999657869338989,
+        1.0,
+        0.9999663233757019,
+        1.0
+      ],
+      "min": [
+        -0.9999659657478333,
+        -1.0,
+        -0.9996910691261292,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 44376,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.99776291847229,
+        0.9979578256607056
+      ],
+      "min": [
+        0.001220703125,
+        0.001220703125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 71760,
+      "componentType": 5125,
+      "count": 4512,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 190056,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        525.2322387695313,
+        723.2550048828125,
+        526.028564453125
+      ],
+      "min": [
+        -526.3765869140625,
+        325.8489990234375,
+        -525.5800170898438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 218520,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.9999168515205383,
+        1.0,
+        0.9999169707298279
+      ],
+      "min": [
+        -0.9999169111251831,
+        -1.0,
+        -0.9999168515205383
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 126704,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.9990425109863281,
+        1.0,
+        0.9999337792396545,
+        1.0
+      ],
+      "min": [
+        -0.9994574189186096,
+        -1.0,
+        -0.9999168515205383,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 63352,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.9936584830284119,
+        0.9986072182655334
+      ],
+      "min": [
+        0.001220703125,
+        0.001220703125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 89808,
+      "componentType": 5125,
+      "count": 4512,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 246984,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        526.9032592773438,
+        1048.62744140625,
+        527.395263671875
+      ],
+      "min": [
+        -526.6786499023438,
+        651.2214965820313,
+        -526.1865844726563
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 275448,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.9998087882995605,
+        1.0,
+        0.9998089075088501
+      ],
+      "min": [
+        -0.9998087882995605,
+        -1.0,
+        -0.9998089075088501
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 164656,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.9999901056289673,
+        1.0,
+        0.9999496340751648,
+        1.0
+      ],
+      "min": [
+        -0.9999804496765137,
+        -1.0,
+        -0.9998087882995605,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 82328,
+      "componentType": 5126,
+      "count": 2372,
+      "max": [
+        0.994684636592865,
+        0.9963531494140625
+      ],
+      "min": [
+        -0.0004620552062988281,
+        0.001220703125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 107856,
+      "componentType": 5125,
+      "count": 4512,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "ZZeronnx (https://sketchfab.com/ZZeronnx)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/tanker-7b927c5fb2ec413680c17c02901ad481",
+      "title": "Tanker"
+    },
+    "generator": "Sketchfab-11.53.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 125904,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 101304,
+      "byteOffset": 125904,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 303912,
+      "byteOffset": 227208,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 202608,
+      "byteOffset": 531120,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 733728,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/TankerMat_baseColor.png"
+    },
+    {
+      "uri": "textures/TankerMat_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/TankerMat_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "TankerMat",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Tanker_TankerMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Dais0_TankerMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Dais1_TankerMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Dais2_TankerMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Tanker.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        7,
+        9
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Tanker"
+    },
+    {
+      "mesh": 0,
+      "name": "Tanker_TankerMat_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Dais0"
+    },
+    {
+      "mesh": 1,
+      "name": "Dais0_TankerMat_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Dais1"
+    },
+    {
+      "mesh": 2,
+      "name": "Dais1_TankerMat_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "Dais2"
+    },
+    {
+      "mesh": 3,
+      "name": "Dais2_TankerMat_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

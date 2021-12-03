@@ -1,0 +1,408 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 12400,
+      "max": [
+        3.4000000953674316,
+        3.3999977111816406,
+        5.1999998092651367
+      ],
+      "min": [
+        -3.4000000953674316,
+        -3.3999977111816406,
+        0.80000007152557373
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 148800,
+      "componentType": 5126,
+      "count": 12400,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 68268,
+      "max": [
+        12399
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 297600,
+      "componentType": 5126,
+      "count": 1025,
+      "max": [
+        4,
+        3.9999983310699463,
+        0.80000007152557373
+      ],
+      "min": [
+        -4,
+        -3.9999983310699463,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 309900,
+      "componentType": 5126,
+      "count": 1025,
+      "max": [
+        0.96496576070785522,
+        0.96496576070785522,
+        1
+      ],
+      "min": [
+        -0.96496576070785522,
+        -0.96496576070785522,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 273072,
+      "componentType": 5125,
+      "count": 5184,
+      "max": [
+        1024
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "davide.6.6.95 (https://sketchfab.com/davide.6.6.95)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/b739cb8a349e472bbbf12eb695e17d8d",
+      "title": "Table Bell"
+    },
+    "generator": "Sketchfab-3.31.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 293808,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 322200,
+      "byteOffset": 293808,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 616008,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.50706899999999999,
+            0.50706899999999999,
+            0.50706899999999999,
+            1
+          ],
+          "glossinessFactor": 0.82394172570000002,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "Bell"
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.23955199999999999,
+            0.043412199999999998,
+            0,
+            1
+          ],
+          "glossinessFactor": 0.17605827430000001,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "Wood"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Bell_Bell_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Bell_Wood_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -6.5199998289244832e-08,
+        -2.5139999593193352e-07,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "0d648b29a0944945b5661306f8c38988.fbx"
+    },
+    {
+      "children": [
+        4,
+        7,
+        10
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-07,
+        -0.99999999999998679,
+        0,
+        0,
+        0.99999999999998679,
+        -1.6292067939183141e-07,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Bell"
+    },
+    {
+      "mesh": 0,
+      "name": "Bell_Bell_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Bell_Wood_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        -0.29086474569590881,
+        -0.055189082036189996,
+        -0.95517111814337063,
+        0,
+        0.56639299834358436,
+        0.79467233768972678,
+        -0.21839122676706429,
+        0,
+        0.7711009226399308,
+        -0.60452457820471017,
+        -0.19988346967737125,
+        0,
+        12.575392723083496,
+        20.30137825012207,
+        -4.781099796295166,
+        1
+      ],
+      "name": "Lamp"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        -0.36270426616715812,
+        -0.17674825858858484,
+        -0.34189146844191542,
+        0,
+        -0.12861553151736962,
+        0.49844173269222342,
+        -0.12123527525684001,
+        0,
+        0.36275028347331584,
+        2.6270226771712518e-09,
+        -0.38483287235285946,
+        0,
+        12.690854072570801,
+        7.7234482765197754,
+        11.521990776062012,
+        1
+      ],
+      "name": "Camera"
+    },
+    {
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

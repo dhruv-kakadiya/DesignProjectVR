@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VR Project</title>
+		<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+		<script src="https://rawgit.com/mayognaise/aframe-mouse-cursor-component/master/dist/aframe-mouse-cursor-component.min.js"></script>
+		<script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
+		<script src="js/aframe-material.js"></script>
+		<script type="text/javascript">
+			AFRAME.ASSETS_PATH = './assets';
+		</script>
+	</head>
+	<body>
+		<a-scene cursor="rayOrigin: mouse">
+			<a-assets>
+				<a-assets-item id="hospitalDoor" src="./src/hospitalDoor/scene.gltf"></a-asset-item>
+				<a-assets-item id="hospitalBed" src="./src/hospitalBed/scene.gltf"></a-asset-item>
+				<a-assets-item id="manCalling" src="./src/manCalling/scene.gltf"></a-asset-item>
+				<a-assets-item id="manCalling2" src="./src/manCalling2/scene.gltf"></a-asset-item>
+				<a-assets-item id="wheelChair" src="./src/wheelChair/scene.gltf"></a-asset-item>
+				<a-assets-item id="steelSofa2" src="./src/steelSofa2/scene.gltf"></a-asset-item>
+				<a-assets-item id="womenSitting" src="./src/womenSitting/scene.gltf"></a-asset-item>
+				<a-assets-item id="receptionTable" src="./src/receptionTable/scene.gltf"></a-asset-item>
+				<a-assets-item id="doctorMen" src="./src/doctorMen/scene.gltf"></a-asset-item>
+				<a-assets-item id="tableBell" src="./src/tableBell/scene.gltf"></a-asset-item>
+
+				<img id="floorImage" src="./src/Images/FloorImage2.jpg" />
+				<img id="emergencyBoard" src="./src/Images/emergencyBoard.jpg" />
+				<img id="silencePoster" src="./src/Images/silencePoster.jpg" />
+				<img id="oilSpot2" src="./src/Images/oilSpot2.png" />
+				<img id="oilSpot1" src="./src/Images/oilSpot1.png" />
+			</a-assets>
+			<a-entity laser-controls="hand: right"></a-entity>
+			<a-entity position="0 2 6" camera look-controls wasd-controls></a-entity>
+
+			<!-- Box -->
+			<a-plane 
+				material="src: #floorImage; repeat: 50 50;color: #869EB9"
+				scale="100 100 1" 
+				rotation="-90 0 0">
+			</a-plane>
+			<a-plane 
+				color="#869EB9" 
+				scale="100.0 100.0 1.0" 
+				position="0.0 0.0 -10.0" 
+				rotation="0.0 0.0 0.0">
+			</a-plane>
+			<a-plane 
+				color="#869EB9" 
+				scale="100.0 100.0 1.0" 
+				rotation="0 90 0" 
+				position="-8.0 0.0 0.0">
+			</a-plane>
+			<a-plane 
+				color="#869EB9" 
+				scale="100.0 100.0 1.0" 
+				rotation="0 -90 0" 
+				position="8.0 0.0 0.0">
+			</a-plane>
+			<a-plane 
+				color="#869EB9" 
+				scale="100.0 100.0 1.0" 
+				position="0 10 0" 
+				rotation="90 0 0">
+			</a-plane>
+
+			<!-- Hospital Door -->
+			<a-entity
+				gltf-model="#hospitalDoor"
+				position="-7.97 0 -1"
+				scale="1.5 1.5 1.5"
+				rotation="0 90 0">
+			</a-entity>
+
+			<!-- Hospital Bed -->
+			<a-entity
+				gltf-model="#hospitalBed"
+				position="-7.5 0 -1"
+				rotation="0 90 0"
+				scale="2 1.5 1">
+			</a-entity>
+
+			<!-- Emergency Board -->
+			<a-plane 
+				material="src: #emergencyBoard;"
+				scale="1.5 0.75 50" 
+				rotation="0 90 0"
+				position="-7.9 6 -1">
+			</a-plane>
+
+			<!-- Man Calling -->
+			<a-entity
+				gltf-model="#manCalling2"
+				scale="1.7 1.7 1.7"
+				position="2.5 0 -9.5"
+				rotation="0 50 0">
+			</a-entity>
+
+			<!-- Silence Board -->
+			<a-plane 
+				material="src: #silencePoster;"
+				scale="1 1 50" 
+				rotation="0 0 0"
+				position="-3.5 5 -9.9">
+			</a-plane>
+
+			<!-- Steel Sofa -->
+			<a-entity
+				gltf-model="#steelSofa2"
+				position="-7 0 -9"
+				scale="0.002 0.002 0.002"
+				rotation="0 0 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#steelSofa2"
+				position="-4.3 0 -9"
+				scale="0.002 0.002 0.002"
+				rotation="0 0 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#steelSofa2"
+				position="-1.6 0 -9"
+				scale="0.002 0.002 0.002"
+				rotation="0 0 0">
+			</a-entity>
+			
+			<!-- Women Sitting 1 -->
+			<a-entity
+				gltf-model="#womenSitting"
+				position="-5.7 0 -9"
+				scale="0.002 0.002 0.002"
+				rotation="0 0 0">
+			</a-entity>
+
+			<!-- Reception Table -->
+			<a-entity
+				gltf-model="#receptionTable"
+				position="6.5 0.8 -1"
+				scale="1 1 1"
+				rotation="0 -50 0">
+			</a-entity>
+
+			<!-- Table Bell -->
+			<a-entity
+				gltf-model="#tableBell"
+				position="4.3 1.7 -0.5"
+				scale="0.05 0.05 0.05"
+				rotation="0 -50 0">
+			</a-entity>
+
+			<!-- Doctor Men -->
+			<a-entity
+				gltf-model="#doctorMen"
+				position="4 0 -2"
+				scale="0.015 0.015 0.015"
+				rotation="0 50 0">
+			</a-entity>
+
+			<!-- Wheel Chair -->
+			<a-entity
+				gltf-model="#wheelChair"
+				position="-7 1 -4.5"
+				scale="1.0 1.0 1.0"
+				rotation="0 90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#wheelChair"
+				position="-7 1 -6"
+				scale="1.0 1.0 1.0"
+				rotation="0 90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#wheelChair"
+				position="7 1 -4.5"
+				scale="1.0 1.0 1.0"
+				rotation="0 -90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#wheelChair"
+				position="7 1 -6"
+				scale="1.0 1.0 1.0"
+				rotation="0 -90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#wheelChair"
+				position="7 1 -7.5"
+				scale="1.0 1.0 1.0"
+				rotation="0 -90 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#wheelChair"
+				position="7 1 -9"
+				scale="1.0 1.0 1.0"
+				rotation="0 -90 0">
+			</a-entity>
+
+			<!-- INPUTS/KEYBOARD
+			<a-keyboard physical-keyboard="true"></a-keyboard>
+			<a-input
+				position="-1.5 3 -4"
+				placeholder="Answer"
+				color="black"
+				width="2"
+				id="inputScore"
+			></a-input> -->
+
+			<a-form>
+				<a-button
+					position="-1 3 -4"
+					name="stuff"
+					width="3"
+					value="Next Scene"
+					type="raised">
+				</a-button>
+			</a-form>
+		</a-scene>
+
+		<script src="js/scene2.js"></script>
+	</body>
+</html>

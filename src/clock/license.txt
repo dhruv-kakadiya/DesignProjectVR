@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modern Clock With Separate Minutes And Hours
+* source:	https://sketchfab.com/3d-models/modern-clock-with-separate-minutes-and-hours-6a37f1655c0b4a6e84a42ee26ec02be2
+* author:	Miguel Adão (https://sketchfab.com/theauditor)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modern Clock With Separate Minutes And Hours" (https://sketchfab.com/3d-models/modern-clock-with-separate-minutes-and-hours-6a37f1655c0b4a6e84a42ee26ec02be2) by Miguel Adão (https://sketchfab.com/theauditor) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

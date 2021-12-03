@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tanker
+* source:	https://sketchfab.com/3d-models/tanker-7b927c5fb2ec413680c17c02901ad481
+* author:	ZZeronnx (https://sketchfab.com/ZZeronnx)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tanker" (https://sketchfab.com/3d-models/tanker-7b927c5fb2ec413680c17c02901ad481) by ZZeronnx (https://sketchfab.com/ZZeronnx) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VR Project</title>
+		<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+		<script src="https://rawgit.com/mayognaise/aframe-mouse-cursor-component/master/dist/aframe-mouse-cursor-component.min.js"></script>
+		<script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
+		<script src="js/aframe-material.js"></script>
+		<script type="text/javascript">
+			AFRAME.ASSETS_PATH = './assets';
+		</script>
+	</head>
+	<body>
+		<a-scene cursor="rayOrigin: mouse">
+			<a-assets>
+				<a-asset-item id="oilTank" src="./src/oilBarrel.gltf"></a-asset-item>
+				<a-asset-item id="oilLeakTank" src="./src/oilLeakBarrel.gltf"></a-asset-item>
+				<a-assets-item id="noSmokePoster" src="./src/noSmokePoster.gltf"></a-asset-item>
+				<a-assets-item id="smokeGuy" src="./src/smokeGuy/smokingGuy.gltf"></a-asset-item>
+				<a-assets-item id="pole" src="./src/pole.gltf"></a-asset-item>
+				<a-assets-item id="poleWire" src="./src/poleWire.gltf"></a-asset-item>
+				<a-assets-item id="femaleWelder" src="./src/femaleWelder/scene.gltf"></a-asset-item>
+
+				<a-assets-item id="maleWelder" src="./src/maleWelder/scene.gltf"></a-asset-item>
+				<a-assets-item id="happyWorker" src="./src/happyWorker/scene.gltf"></a-asset-item>
+				<a-assets-item id="constructionHelmet" src="./src/constructionHelmet/scene.gltf"></a-asset-item>
+				<a-assets-item id="farmerWorksuit" src="./src/farmerWorksuit/scene.gltf"></a-asset-item>
+				<a-assets-item id="femaleWorker" src="./src/femaleWorker/scene.gltf"></a-asset-item>
+
+				<a-assets-item id="boxMetal" src="./src/box/scene.gltf"></a-asset-item>
+				<a-assets-item id="generator" src="./src/generator/scene.gltf"></a-asset-item>
+				<a-assets-item id="vendingMachine" src="./src/vendingMachine/scene.gltf"></a-asset-item>
+
+				<img id="floorImage" src="./src/Images/FloorImage.png" />
+				<img id="oilSpot2" src="./src/Images/oilSpot2.png" />
+				<img id="oilSpot1" src="./src/Images/oilSpot1.png" />
+			</a-assets>
+			<a-entity laser-controls="hand: right"></a-entity>
+			<a-entity position="0 2 6" camera look-controls wasd-controls></a-entity>
+
+			<!-- Box -->
+			<a-plane 
+				material="src: #floorImage; repeat: 50 50;" 
+				scale="100 100 1" 
+				rotation="-90 0 0">
+			</a-plane>
+			<a-plane 
+				color="#DFC99D" 
+				scale="100.0 100.0 1.0" 
+				position="0.0 0.0 -10.0" 
+				rotation="0.0 0.0 0.0">
+			</a-plane>
+			<a-plane 
+				color="#DFC99D" 
+				scale="100.0 100.0 1.0" 
+				rotation="0 90 0" 
+				position="-8.0 0.0 0.0">
+			</a-plane>
+			<a-plane 
+				color="#DFC99D" 
+				scale="100.0 100.0 1.0" 
+				rotation="0 -90 0" 
+				position="8.0 0.0 0.0">
+			</a-plane>
+			<a-plane 
+				color="#DFC99D" 
+				scale="100.0 100.0 1.0" 
+				position="0 10 0" 
+				rotation="90 0 0">
+			</a-plane>
+
+			<!-- First Row Oil Tank -->
+			<a-entity
+				gltf-model="#oilTank"
+				position="2 0.7 0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="2.7 0.7 0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="3.4 0.7 0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilLeakTank"
+				position="4.1 0.7 0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="4.8 0.7 0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="5.5 0.7 0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="6.2 0.7 0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+
+			<!-- Second Row Oil Tank -->
+			<a-entity
+				gltf-model="#oilTank"
+				position="1.65 0.7 0"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="2.35 0.7 0"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="3.05 0.7 0"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="3.75 0.7 0"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="4.45 0.7 0"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="5.15 0.7 0"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="5.85 0.7 0"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="6.55 0.7 0"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+
+			<!-- Third Row Oil Tank -->
+			<a-entity
+				gltf-model="#oilTank"
+				position="2 0.7 -0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="2.7 0.7 -0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="3.4 0.7 -0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilLeakTank"
+				position="4.1 0.7 -0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="4.8 0.7 -0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="5.5 0.7 -0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="6.2 0.7 -0.6"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+
+			<!-- Forth Row Oil Tank -->
+			<a-entity
+				gltf-model="#oilTank"
+				position="1.65 0.7 -1.2"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="2.35 0.7 -1.2"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="3.05 0.7 -1.2"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="3.75 0.7 -1.2"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="4.45 0.7 -1.2"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="5.15 0.7 -1.2"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="5.85 0.7 -1.2"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#oilTank"
+				position="6.55 0.7 -1.2"
+				scale="1.0 1.0 1.0"
+				rotation="90 -30 0">
+			</a-entity>
+
+			<!-- Smoke Poster -->
+			<a-entity
+				gltf-model="#noSmokePoster"
+				position="-3.5 4 -10.0"
+				scale="0.3 0.3 0.3"
+				rotation="90 0 0">
+			</a-entity>
+
+			<!-- Smoke Guy -->
+			<a-entity
+				gltf-model="#smokeGuy"
+				scale="0.015 0.015 0.015"
+				position="-3.5 0 -9.5"
+				rotation="0 -90 0">
+			</a-entity>
+
+			<!-- Pole -->
+			<a-entity
+				gltf-model="#pole"
+				scale="0.25 1 0.25"
+				position="-6.5 0.0 -9.0">
+			</a-entity>
+			<a-entity
+				gltf-model="#pole"
+				scale="0.25 1 0.25"
+				position="6.5 0.0 -9.0">
+			</a-entity>
+			<a-entity
+				gltf-model="#pole"
+				scale="0.25 1 0.25"
+				position="-6.5 0.0 1">
+			</a-entity>
+
+			<!-- Pole Wire -->
+			<a-entity
+				gltf-model="#poleWire"
+				scale="0.1 0.2 0.1"
+				position="6.5 2.0 1"
+				rotation="0 120 0">
+			</a-entity>
+
+			<!-- Female Welder -->
+			<a-entity
+				gltf-model="#femaleWelder"
+				position="-5.2 0 1.1"
+				scale="1.5 1.5 1.5"
+				rotation="0 -90 0">
+			</a-entity>
+
+			<!-- Male Welder -->
+			<a-entity
+				gltf-model="#maleWelder"
+				position="5 0 -5"
+				scale="1.5 1.5 1.5"
+				rotation="0 -90 0">
+			</a-entity>
+
+			<!-- Oil Spot -->
+			<a-image 
+				src="#oilSpot2" 
+				color="black" 
+				rotation="90.0 0.0 0.0" 
+				position="4 0.1 0.6" 
+				width="2.0" 
+				height="2.0">
+			</a-image>
+			<a-image 
+				src="#oilSpot1" 
+				color="black" 
+				rotation="90.0 0.0 0.0" 
+				position="-1.0 0.1 5" 
+				width="15.0" 
+				height="15.0">
+			</a-image>
+			<a-image 
+				src="#oilSpot2" 
+				color="black" 
+				rotation="90.0 0.0 180.0" 
+				position="2 0.15 3" 
+				width="1.0" 
+				height="1.0">
+			</a-image>
+
+			<!-- Generator -->
+			<a-entity
+				gltf-model="#generator"
+				scale="0.02 0.02 0.02"
+				rotation="0 180 0"
+				position="6.5 0.2 -5.0">
+			</a-entity>
+
+			<!-- Happy Worker -->
+			<a-entity
+				gltf-model="#happyWorker"
+				position="-9.2 -3 -5.1">
+			</a-entity>
+
+			<!-- Vending Machine -->
+			<a-entity
+				gltf-model="#vendingMachine"
+				scale="0.04 0.04 0.04"
+				rotation="0 90 0"
+				position="-8 0 -3">
+			</a-entity>
+
+			<!-- Metal Box 1 -->
+			<!-- First Row of Metal Boxes -->
+			<a-entity
+				gltf-model="#boxMetal"
+				position="1 0 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="2.15 0 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="3.3 0 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="4.45 0 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="5.6 0 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+
+			<!-- Second Row of Metal Boxes -->
+			<a-entity
+				gltf-model="#boxMetal"
+				position="1 0.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="2.15 0.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="3.3 0.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="4.45 0.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="5.6 0.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+
+			<!-- Third Row of Metal Boxes -->
+			<a-entity
+				gltf-model="#boxMetal"
+				position="1 1 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="2.15 1 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="3.3 1 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="4.45 1 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="5.6 1 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+
+			<!-- Fourth Row of Metal Boxes -->
+			<a-entity
+				gltf-model="#boxMetal"
+				position="1.0 1.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="2.15 1.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="3.3 1.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="4.45 1.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="5.6 1.5 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+
+			<!-- Fifth Row of Metal Boxes -->
+			<a-entity
+				gltf-model="#boxMetal"
+				position="1.0 1.97 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="2.15 1.97 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="3.3 1.97 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="4.45 1.97 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+			<a-entity
+				gltf-model="#boxMetal"
+				position="5.6 1.97 -9.7"
+				scale="0.3 0.3 0.3"
+				rotation="0 180 0">
+			</a-entity>
+
+			<!-- INPUTS/KEYBOARD
+			<a-keyboard physical-keyboard="true"></a-keyboard>
+			<a-input
+				position="-1.5 3 -4"
+				placeholder="Answer"
+				color="black"
+				width="2"
+				id="inputScore">
+			</a-input> -->
+
+			<a-form>
+				<a-button
+					position="-1 3 -4"
+					name="stuff"
+					width="3"
+					value="Next Scene"
+					type="raised">
+				</a-button>
+			</a-form>
+		</a-scene>
+		<script src="js/scene1.js"></script>
+	</body>
+</html>
